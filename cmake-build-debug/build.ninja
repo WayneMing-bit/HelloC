@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C$ Programming/Code/HelloC/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target HelloWord
+
+
+#############################################
+# Order-only phony target for HelloWord
+
+build cmake_object_order_depends_target_HelloWord: phony || .
+
+build CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj: C_COMPILER__HelloWord_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/HelloWord.c || cmake_object_order_depends_target_HelloWord
+  DEP_FILE = CMakeFiles\HelloWord.dir\Chapter1\HelloWord.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HelloWord.dir
+  OBJECT_FILE_DIR = CMakeFiles\HelloWord.dir\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HelloWord
+
+
+#############################################
+# Link the executable HelloWord.exe
+
+build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HelloWord.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HelloWord.exe
+  TARGET_IMPLIB = libHelloWord.dll.a
+  TARGET_PDB = HelloWord.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target quadratic_eq
 
 
@@ -200,6 +233,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CMakeCCompilerId: phony CMakeCCompilerId.exe
 
+build HelloWord: phony HelloWord.exe
+
 build main: phony main.exe
 
 build quadratic_eq: phony quadratic_eq.exe
@@ -214,7 +249,7 @@ build variable: phony variable.exe
 #############################################
 # Folder: D:/C Programming/Code/HelloC/cmake-build-debug
 
-build all: phony quadratic_eq.exe variable.exe CMakeCCompilerId.exe main.exe
+build all: phony HelloWord.exe quadratic_eq.exe variable.exe CMakeCCompilerId.exe main.exe
 
 # =============================================================================
 # Built-in targets

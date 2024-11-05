@@ -1,8 +1,9 @@
 "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\C Programming\Code\HelloC" -B "D:\C Programming\Code\HelloC\cmake-build-debug"
+    -- src/HelloWord.cpp will be compiled to bin/HelloWord
     -- src/quadratic_eq.cpp will be compiled to bin/quadratic_eq
     -- src/variable.cpp will be compiled to bin/variable
     -- src/CMakeCCompilerId.cpp will be compiled to bin/CMakeCCompilerId
     -- src/main.cpp will be compiled to bin/main
--- Configuring done (0.3s)
+-- Configuring done (0.4s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/C Programming/Code/HelloC/cmake-build-debug
