@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HelloC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCCompilerId-Debug-42d38409771f14ae1222.json",
+					"name" : "CMakeCCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloWord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWord-Debug-fca76181caaa11a37c1f.json",
+					"name" : "HelloWord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-8e6167f97eab09edf1c1.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadratic_eq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadratic_eq-Debug-adbecc07f1e78119a320.json",
+					"name" : "quadratic_eq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "variable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-variable-Debug-34e18aa242d62e2b8e9c.json",
+					"name" : "variable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C Programming/Code/HelloC/cmake-build-debug",
+		"source" : "D:/C Programming/Code/HelloC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
