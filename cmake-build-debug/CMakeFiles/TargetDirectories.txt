@@ -1,0 +1,6 @@
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/quadratic_eq.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/variable.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/CMakeCCompilerId.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/main.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
