@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C$ Programming/Code/HelloC/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target dataTypes
+
+
+#############################################
+# Order-only phony target for dataTypes
+
+build cmake_object_order_depends_target_dataTypes: phony || .
+
+build CMakeFiles/dataTypes.dir/Chapter1/DataType/dataTypes.c.obj: C_COMPILER__dataTypes_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/DataType/dataTypes.c || cmake_object_order_depends_target_dataTypes
+  DEP_FILE = CMakeFiles\dataTypes.dir\Chapter1\DataType\dataTypes.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dataTypes.dir
+  OBJECT_FILE_DIR = CMakeFiles\dataTypes.dir\Chapter1\DataType
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dataTypes
+
+
+#############################################
+# Link the executable dataTypes.exe
+
+build dataTypes.exe: C_EXECUTABLE_LINKER__dataTypes_Debug CMakeFiles/dataTypes.dir/Chapter1/DataType/dataTypes.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dataTypes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dataTypes.exe
+  TARGET_IMPLIB = libdataTypes.dll.a
+  TARGET_PDB = dataTypes.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWord
 
 
@@ -49,11 +82,11 @@ cmake_ninja_workdir = D$:/C$ Programming/Code/HelloC/cmake-build-debug/
 
 build cmake_object_order_depends_target_HelloWord: phony || .
 
-build CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj: C_COMPILER__HelloWord_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/HelloWord.c || cmake_object_order_depends_target_HelloWord
-  DEP_FILE = CMakeFiles\HelloWord.dir\Chapter1\HelloWord.c.obj.d
+build CMakeFiles/HelloWord.dir/Chapter1/Demo/HelloWord.c.obj: C_COMPILER__HelloWord_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Demo/HelloWord.c || cmake_object_order_depends_target_HelloWord
+  DEP_FILE = CMakeFiles\HelloWord.dir\Chapter1\Demo\HelloWord.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HelloWord.dir
-  OBJECT_FILE_DIR = CMakeFiles\HelloWord.dir\Chapter1
+  OBJECT_FILE_DIR = CMakeFiles\HelloWord.dir\Chapter1\Demo
 
 
 # =============================================================================
@@ -63,7 +96,7 @@ build CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj: C_COMPILER__HelloWord_u
 #############################################
 # Link the executable HelloWord.exe
 
-build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj
+build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.dir/Chapter1/Demo/HelloWord.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HelloWord.dir
@@ -82,11 +115,11 @@ build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.d
 
 build cmake_object_order_depends_target_quadratic_eq: phony || .
 
-build CMakeFiles/quadratic_eq.dir/Chapter1/quadratic_eq.c.obj: C_COMPILER__quadratic_eq_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/quadratic_eq.c || cmake_object_order_depends_target_quadratic_eq
-  DEP_FILE = CMakeFiles\quadratic_eq.dir\Chapter1\quadratic_eq.c.obj.d
+build CMakeFiles/quadratic_eq.dir/Chapter1/Demo/quadratic_eq.c.obj: C_COMPILER__quadratic_eq_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Demo/quadratic_eq.c || cmake_object_order_depends_target_quadratic_eq
+  DEP_FILE = CMakeFiles\quadratic_eq.dir\Chapter1\Demo\quadratic_eq.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\quadratic_eq.dir
-  OBJECT_FILE_DIR = CMakeFiles\quadratic_eq.dir\Chapter1
+  OBJECT_FILE_DIR = CMakeFiles\quadratic_eq.dir\Chapter1\Demo
 
 
 # =============================================================================
@@ -96,7 +129,7 @@ build CMakeFiles/quadratic_eq.dir/Chapter1/quadratic_eq.c.obj: C_COMPILER__quadr
 #############################################
 # Link the executable quadratic_eq.exe
 
-build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadratic_eq.dir/Chapter1/quadratic_eq.c.obj
+build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadratic_eq.dir/Chapter1/Demo/quadratic_eq.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\quadratic_eq.dir
@@ -107,37 +140,103 @@ build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadr
   TARGET_PDB = quadratic_eq.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target variable
+# Object build statements for EXECUTABLE target variable1
 
 
 #############################################
-# Order-only phony target for variable
+# Order-only phony target for variable1
 
-build cmake_object_order_depends_target_variable: phony || .
+build cmake_object_order_depends_target_variable1: phony || .
 
-build CMakeFiles/variable.dir/Chapter1/variable.c.obj: C_COMPILER__variable_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/variable.c || cmake_object_order_depends_target_variable
-  DEP_FILE = CMakeFiles\variable.dir\Chapter1\variable.c.obj.d
+build CMakeFiles/variable1.dir/Chapter1/Variable/variable1.c.obj: C_COMPILER__variable1_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable1.c || cmake_object_order_depends_target_variable1
+  DEP_FILE = CMakeFiles\variable1.dir\Chapter1\Variable\variable1.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\variable.dir
-  OBJECT_FILE_DIR = CMakeFiles\variable.dir\Chapter1
+  OBJECT_DIR = CMakeFiles\variable1.dir
+  OBJECT_FILE_DIR = CMakeFiles\variable1.dir\Chapter1\Variable
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target variable
+# Link build statements for EXECUTABLE target variable1
 
 
 #############################################
-# Link the executable variable.exe
+# Link the executable variable1.exe
 
-build variable.exe: C_EXECUTABLE_LINKER__variable_Debug CMakeFiles/variable.dir/Chapter1/variable.c.obj
+build variable1.exe: C_EXECUTABLE_LINKER__variable1_Debug CMakeFiles/variable1.dir/Chapter1/Variable/variable1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\variable.dir
+  OBJECT_DIR = CMakeFiles\variable1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = variable.exe
-  TARGET_IMPLIB = libvariable.dll.a
-  TARGET_PDB = variable.exe.dbg
+  TARGET_FILE = variable1.exe
+  TARGET_IMPLIB = libvariable1.dll.a
+  TARGET_PDB = variable1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable2
+
+
+#############################################
+# Order-only phony target for variable2
+
+build cmake_object_order_depends_target_variable2: phony || .
+
+build CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj: C_COMPILER__variable2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable2.c || cmake_object_order_depends_target_variable2
+  DEP_FILE = CMakeFiles\variable2.dir\Chapter1\Variable\variable2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\variable2.dir
+  OBJECT_FILE_DIR = CMakeFiles\variable2.dir\Chapter1\Variable
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable2
+
+
+#############################################
+# Link the executable variable2.exe
+
+build variable2.exe: C_EXECUTABLE_LINKER__variable2_Debug CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\variable2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = variable2.exe
+  TARGET_IMPLIB = libvariable2.dll.a
+  TARGET_PDB = variable2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable3
+
+
+#############################################
+# Order-only phony target for variable3
+
+build cmake_object_order_depends_target_variable3: phony || .
+
+build CMakeFiles/variable3.dir/Chapter1/Variable/variable3.c.obj: C_COMPILER__variable3_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable3.c || cmake_object_order_depends_target_variable3
+  DEP_FILE = CMakeFiles\variable3.dir\Chapter1\Variable\variable3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\variable3.dir
+  OBJECT_FILE_DIR = CMakeFiles\variable3.dir\Chapter1\Variable
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable3
+
+
+#############################################
+# Link the executable variable3.exe
+
+build variable3.exe: C_EXECUTABLE_LINKER__variable3_Debug CMakeFiles/variable3.dir/Chapter1/Variable/variable3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\variable3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = variable3.exe
+  TARGET_IMPLIB = libvariable3.dll.a
+  TARGET_PDB = variable3.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCCompilerId
@@ -235,11 +334,17 @@ build CMakeCCompilerId: phony CMakeCCompilerId.exe
 
 build HelloWord: phony HelloWord.exe
 
+build dataTypes: phony dataTypes.exe
+
 build main: phony main.exe
 
 build quadratic_eq: phony quadratic_eq.exe
 
-build variable: phony variable.exe
+build variable1: phony variable1.exe
+
+build variable2: phony variable2.exe
+
+build variable3: phony variable3.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +354,7 @@ build variable: phony variable.exe
 #############################################
 # Folder: D:/C Programming/Code/HelloC/cmake-build-debug
 
-build all: phony HelloWord.exe quadratic_eq.exe variable.exe CMakeCCompilerId.exe main.exe
+build all: phony dataTypes.exe HelloWord.exe quadratic_eq.exe variable1.exe variable2.exe variable3.exe CMakeCCompilerId.exe main.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,13 +1,16 @@
 # ninja log v6
-1	540	7525271312087432	build.ninja	b6418a0f199077f2
+1	540	7526065007027031	build.ninja	b6418a0f199077f2
+3	228	7525283071211231	CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj	edfb179f5450851b
 1	251	7524783422089331	CMakeFiles/HelloC.dir/main.c.obj	2772e22620f406af
 3	247	7524785909845793	HelloC.exe	2d71644df890904e
 0	244	7524785812557914	CMakeFiles/HelloC.dir/main1.c.obj	6ba0b926bc68918d
 1	244	7524786848339090	CMakeFiles/main2.dir/test01.c.obj	1e19609f61257aa0
-3	264	7524798468121102	CMakeFiles/variable.dir/Chapter1/variable.c.obj	218dd6704c23317f
+3	275	7526035546487078	CMakeFiles/variable.dir/Chapter1/variable.c.obj	218dd6704c23317f
 244	518	7524786850768421	main2.exe	2f43c5c10aa4f5
-264	490	7524798470735878	variable.exe	fcc5ab29b18857e2
-2	596	7525279826733433	CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj	edfb179f5450851b
-597	1210	7525279832691279	HelloWord.exe	7ea8b987b775e95c
-3	228	7525283071211231	CMakeFiles/HelloWord.dir/Chapter1/HelloWord.c.obj	edfb179f5450851b
+238	484	7526058897591252	variable.exe	e85c7a063a1a62
 228	492	7525283073457351	HelloWord.exe	7ea8b987b775e95c
+3	335	7526027962527867	CMakeFiles/dataTypes.dir/Chapter1/dataTypes.c.obj	5b823964b6d8cd39
+335	674	7526027965849068	dataTypes.exe	b951c22be6787fea
+3	238	7526058895237805	CMakeFiles/variable.dir/Chapter1/Variable/variable.c.obj	ce96e3baa698484a
+3	243	7526064845965210	CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj	9b0a94c02352e9fb
+274	544	7526063011709376	variable2.exe	5d4e567825c16a77

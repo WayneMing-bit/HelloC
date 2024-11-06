@@ -1,6 +1,9 @@
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/dataTypes.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/HelloWord.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/quadratic_eq.dir
-D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/variable.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/variable1.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/variable2.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/variable3.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/CMakeCCompilerId.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/main.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/edit_cache.dir
