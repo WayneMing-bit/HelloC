@@ -41,6 +41,7 @@ void constant3() {
 	printf("%d\n", color);
 }
 
+
 int main() {
 	constant1();
 	constant2();
