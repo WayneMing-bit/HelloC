@@ -31,8 +31,22 @@ void string01() {
     printf("%d\n", strlen(arr3));
 }
 
+/**
+ * 转义字符：转变字符原来的意思
+ * 1. /?
+ *  ??) --> ]
+ *  ??( --> [
+ *
+ * @return
+ */
+void escapeCharacters() {
+    printf("abc\0def");
+    printf("%s\n", "(are you ok\?\?)"); // 部分编译器会将??)解析为]
+
+}
+
 int main() {
     string01();
-
+    escapeCharacters();
     return 0;
 }
