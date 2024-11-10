@@ -40,9 +40,35 @@ void SwitchDemo2() {
     }
 }
 
+void SwitchDemo3() {
+    int n = 1;
+    int m = 2;
+    switch (n) {
+        case 1:
+            m++;
+        case 2:
+            n++;
+        case 3:
+            switch (n) {
+                case 1:
+                    n++;
+                case 2:
+                    m++;
+                    n++;
+                    break;
+            }
+        case 4:
+            m++;
+            break;
+        default:
+            break;
+    }
+    printf("n = %d, m = %d", n, m);
+}
 
 int main() {
     // SwitchDemo1();
-    SwitchDemo2();
+    // SwitchDemo2();
+    SwitchDemo3();
     return 0;
 }
