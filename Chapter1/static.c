@@ -3,6 +3,7 @@
  */
 
 #include <stdio.h>
+#define NUM 100;
 #define Add(x, y) (x + y)
 
 void test() {
@@ -10,6 +11,7 @@ void test() {
 	a++;
 	int b = a;
 	printf("%d ", a);
+    printf("%d", a);
 }
 
 int main() {
