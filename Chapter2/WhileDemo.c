@@ -58,9 +58,19 @@ int WhileExercise01(int n) {
         res *= ++i;
     }
 
-    printf("Res: %d", res);
+    // printf("Res: %d", res);
 
     return res;
+}
+
+
+// 计算1!+2!+3!..+10!计算10的阶乘总和。备注：2!表示2的阶乘以此类推。
+void WhileExercise02() {
+    int res = 0;
+    for (int i = 1; i <= 10; i++) {
+        res += WhileExercise01(i);
+    }
+    printf("Res: %d", res);
 }
 
 int main() {
@@ -70,6 +80,6 @@ int main() {
     // WhileDemo4();
     // GetChar();
     WhileExercise01(5);
-
+    WhileExercise02();
     return 0;
 }
