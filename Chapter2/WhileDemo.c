@@ -44,16 +44,32 @@ void GetChar() {
 
 void WhileDemo4() {
     int ch = 0;
-    while ((ch=getchar()) != EOF) {
+    while ((ch = getchar()) != EOF) {
         putchar(ch);
     }
+}
+
+
+// 计算n的阶乘：1*2*3..*n
+int WhileExercise01(int n) {
+    int i = 1;
+    int res = 1;
+    while (i < n) {
+        res *= ++i;
+    }
+
+    printf("Res: %d", res);
+
+    return res;
 }
 
 int main() {
     // WhileDemo1();
     // WhileDemo2();
     // WhileDemo3();
-    WhileDemo4();
+    // WhileDemo4();
     // GetChar();
+    WhileExercise01(5);
+
     return 0;
 }
