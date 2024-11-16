@@ -6,10 +6,9 @@ int get_max(int num1, int num2) {
 }
 
 void Swap(int * a, int * b) {
-    int* temp = 0;
-    temp = a;
-    a = b;
-    b = temp;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 
 int main() {
