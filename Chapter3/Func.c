@@ -11,6 +11,16 @@ void Swap(int *a, int *b) {
     *b = temp;
 }
 
+// 是素数返回1，不是素数返回0；
+int is_Prime(int i) {
+    for (int j = 2; j <= sqrt(i); j++) {
+        if (i % j == 0) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
 // 素数实现方式1
 void PrimeNumber1() {
     int count = 0;
@@ -26,17 +36,17 @@ void PrimeNumber1() {
 
         if (flag == 1) {
             count++;
-            printf("%d is prime number. \n", i);
+            printf("%d is prime number.", i);
         }
 
     }
-    printf("count = %d\n", count);
+    printf("\n count = %d\n", count);
 }
 
 // 素数实现方式2
 void PrimeNumber2() {
     int count = 0;
-    for (int i = 100; i <= 200; i++) {
+    for (int i = 101; i <= 200; i+=2) {
         int flag = 1;   // flag=1表示素数
 
         for (int j = 2; j <= sqrt(i); j++) {
@@ -48,12 +58,26 @@ void PrimeNumber2() {
 
         if (flag == 1) {
             count++;
-            printf("%d is prime number. \n", i);
+            printf("%d is prime number. ", i);
         }
 
     }
-    printf("count = %d\n", count);
+    printf("\n count = %d\n", count);
 }
+
+// 素数实现方式3
+void PrimeNumber3() {
+    int count = 0;
+    for (int i = 101; i <= 200; i+=2) {
+        if (is_Prime(i)) {
+            count++;
+            printf("%d is prime number.", i);
+        }
+
+    }
+    printf("\n count = %d\n", count);
+}
+
 
 int main() {
     char arr1[20] = {0};
@@ -77,5 +101,6 @@ int main() {
 
     PrimeNumber1();
     PrimeNumber2();
+    PrimeNumber3();
     return 0;
 }
