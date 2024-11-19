@@ -25,7 +25,7 @@ int is_Prime(int i) {
 void PrimeNumber1() {
     int count = 0;
     for (int i = 100; i <= 200; i++) {
-        int flag = 1;   // flag=1表示素数
+        int flag = 1; // flag=1表示素数
 
         for (int j = 2; j <= i - 1; j++) {
             if (i % j == 0) {
@@ -38,7 +38,6 @@ void PrimeNumber1() {
             count++;
             printf("%d is prime number.", i);
         }
-
     }
     printf("\n count = %d\n", count);
 }
@@ -46,8 +45,8 @@ void PrimeNumber1() {
 // 素数实现方式2
 void PrimeNumber2() {
     int count = 0;
-    for (int i = 101; i <= 200; i+=2) {
-        int flag = 1;   // flag=1表示素数
+    for (int i = 101; i <= 200; i += 2) {
+        int flag = 1; // flag=1表示素数
 
         for (int j = 2; j <= sqrt(i); j++) {
             if (i % j == 0) {
@@ -60,7 +59,6 @@ void PrimeNumber2() {
             count++;
             printf("%d is prime number. ", i);
         }
-
     }
     printf("\n count = %d\n", count);
 }
@@ -68,14 +66,32 @@ void PrimeNumber2() {
 // 素数实现方式3
 void PrimeNumber3() {
     int count = 0;
-    for (int i = 101; i <= 200; i+=2) {
+    for (int i = 101; i <= 200; i += 2) {
         if (is_Prime(i)) {
             count++;
             printf("%d is prime number.", i);
         }
-
     }
     printf("\n count = %d\n", count);
+}
+
+// 闰年 是闰年返回1 不是闰年返回0
+int is_leap_Year(int year) {
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        return 1;
+    }
+
+    return 0;
+}
+
+void Test1(int arr[], int index) {
+    // int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    // int k = 7;
+    int length = sizeof(arr) / sizeof(arr[0]);
+
+    for (int i = 0; i < length; i++) {
+
+    }
 }
 
 
@@ -102,5 +118,8 @@ int main() {
     PrimeNumber1();
     PrimeNumber2();
     PrimeNumber3();
+    if (is_leap_Year(2024)) {
+        printf("Yes RunYear! %d\n", 2024);
+    }
     return 0;
 }
