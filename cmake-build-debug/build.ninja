@@ -41,6 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C$ Programming/Code/HelloC/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target String1
+
+
+#############################################
+# Order-only phony target for String1
+
+build cmake_object_order_depends_target_String1: phony || .
+
+build CMakeFiles/String1.dir/C_Primer_Plus/Code/Chapter11/String1.c.obj: C_COMPILER__String1_unscanned_Debug D$:/C$ Programming/Code/HelloC/C_Primer_Plus/Code/Chapter11/String1.c || cmake_object_order_depends_target_String1
+  DEP_FILE = CMakeFiles\String1.dir\C_Primer_Plus\Code\Chapter11\String1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\String1.dir
+  OBJECT_FILE_DIR = CMakeFiles\String1.dir\C_Primer_Plus\Code\Chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target String1
+
+
+#############################################
+# Link the executable String1.exe
+
+build String1.exe: C_EXECUTABLE_LINKER__String1_Debug CMakeFiles/String1.dir/C_Primer_Plus/Code/Chapter11/String1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\String1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String1.exe
+  TARGET_IMPLIB = libString1.dll.a
+  TARGET_PDB = String1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ifDemo
+
+
+#############################################
+# Order-only phony target for ifDemo
+
+build cmake_object_order_depends_target_ifDemo: phony || .
+
+build CMakeFiles/ifDemo.dir/Classes/Chapter1/Choose/ifDemo.c.obj: C_COMPILER__ifDemo_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Choose/ifDemo.c || cmake_object_order_depends_target_ifDemo
+  DEP_FILE = CMakeFiles\ifDemo.dir\Classes\Chapter1\Choose\ifDemo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ifDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\ifDemo.dir\Classes\Chapter1\Choose
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ifDemo
+
+
+#############################################
+# Link the executable ifDemo.exe
+
+build ifDemo.exe: C_EXECUTABLE_LINKER__ifDemo_Debug CMakeFiles/ifDemo.dir/Classes/Chapter1/Choose/ifDemo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ifDemo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ifDemo.exe
+  TARGET_IMPLIB = libifDemo.dll.a
+  TARGET_PDB = ifDemo.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target dataTypes
 
 
@@ -49,11 +115,11 @@ cmake_ninja_workdir = D$:/C$ Programming/Code/HelloC/cmake-build-debug/
 
 build cmake_object_order_depends_target_dataTypes: phony || .
 
-build CMakeFiles/dataTypes.dir/Chapter1/DataType/dataTypes.c.obj: C_COMPILER__dataTypes_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/DataType/dataTypes.c || cmake_object_order_depends_target_dataTypes
-  DEP_FILE = CMakeFiles\dataTypes.dir\Chapter1\DataType\dataTypes.c.obj.d
+build CMakeFiles/dataTypes.dir/Classes/Chapter1/DataType/dataTypes.c.obj: C_COMPILER__dataTypes_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/DataType/dataTypes.c || cmake_object_order_depends_target_dataTypes
+  DEP_FILE = CMakeFiles\dataTypes.dir\Classes\Chapter1\DataType\dataTypes.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\dataTypes.dir
-  OBJECT_FILE_DIR = CMakeFiles\dataTypes.dir\Chapter1\DataType
+  OBJECT_FILE_DIR = CMakeFiles\dataTypes.dir\Classes\Chapter1\DataType
 
 
 # =============================================================================
@@ -63,7 +129,7 @@ build CMakeFiles/dataTypes.dir/Chapter1/DataType/dataTypes.c.obj: C_COMPILER__da
 #############################################
 # Link the executable dataTypes.exe
 
-build dataTypes.exe: C_EXECUTABLE_LINKER__dataTypes_Debug CMakeFiles/dataTypes.dir/Chapter1/DataType/dataTypes.c.obj
+build dataTypes.exe: C_EXECUTABLE_LINKER__dataTypes_Debug CMakeFiles/dataTypes.dir/Classes/Chapter1/DataType/dataTypes.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dataTypes.dir
@@ -82,11 +148,11 @@ build dataTypes.exe: C_EXECUTABLE_LINKER__dataTypes_Debug CMakeFiles/dataTypes.d
 
 build cmake_object_order_depends_target_HelloWord: phony || .
 
-build CMakeFiles/HelloWord.dir/Chapter1/Demo/HelloWord.c.obj: C_COMPILER__HelloWord_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Demo/HelloWord.c || cmake_object_order_depends_target_HelloWord
-  DEP_FILE = CMakeFiles\HelloWord.dir\Chapter1\Demo\HelloWord.c.obj.d
+build CMakeFiles/HelloWord.dir/Classes/Chapter1/Demo/HelloWord.c.obj: C_COMPILER__HelloWord_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Demo/HelloWord.c || cmake_object_order_depends_target_HelloWord
+  DEP_FILE = CMakeFiles\HelloWord.dir\Classes\Chapter1\Demo\HelloWord.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HelloWord.dir
-  OBJECT_FILE_DIR = CMakeFiles\HelloWord.dir\Chapter1\Demo
+  OBJECT_FILE_DIR = CMakeFiles\HelloWord.dir\Classes\Chapter1\Demo
 
 
 # =============================================================================
@@ -96,7 +162,7 @@ build CMakeFiles/HelloWord.dir/Chapter1/Demo/HelloWord.c.obj: C_COMPILER__HelloW
 #############################################
 # Link the executable HelloWord.exe
 
-build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.dir/Chapter1/Demo/HelloWord.c.obj
+build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.dir/Classes/Chapter1/Demo/HelloWord.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HelloWord.dir
@@ -115,11 +181,11 @@ build HelloWord.exe: C_EXECUTABLE_LINKER__HelloWord_Debug CMakeFiles/HelloWord.d
 
 build cmake_object_order_depends_target_quadratic_eq: phony || .
 
-build CMakeFiles/quadratic_eq.dir/Chapter1/Demo/quadratic_eq.c.obj: C_COMPILER__quadratic_eq_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Demo/quadratic_eq.c || cmake_object_order_depends_target_quadratic_eq
-  DEP_FILE = CMakeFiles\quadratic_eq.dir\Chapter1\Demo\quadratic_eq.c.obj.d
+build CMakeFiles/quadratic_eq.dir/Classes/Chapter1/Demo/quadratic_eq.c.obj: C_COMPILER__quadratic_eq_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Demo/quadratic_eq.c || cmake_object_order_depends_target_quadratic_eq
+  DEP_FILE = CMakeFiles\quadratic_eq.dir\Classes\Chapter1\Demo\quadratic_eq.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\quadratic_eq.dir
-  OBJECT_FILE_DIR = CMakeFiles\quadratic_eq.dir\Chapter1\Demo
+  OBJECT_FILE_DIR = CMakeFiles\quadratic_eq.dir\Classes\Chapter1\Demo
 
 
 # =============================================================================
@@ -129,7 +195,7 @@ build CMakeFiles/quadratic_eq.dir/Chapter1/Demo/quadratic_eq.c.obj: C_COMPILER__
 #############################################
 # Link the executable quadratic_eq.exe
 
-build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadratic_eq.dir/Chapter1/Demo/quadratic_eq.c.obj
+build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadratic_eq.dir/Classes/Chapter1/Demo/quadratic_eq.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\quadratic_eq.dir
@@ -140,6 +206,171 @@ build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadr
   TARGET_PDB = quadratic_eq.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target BC6-Smallplane
+
+
+#############################################
+# Order-only phony target for BC6-Smallplane
+
+build cmake_object_order_depends_target_BC6-Smallplane: phony || .
+
+build CMakeFiles/BC6-Smallplane.dir/Classes/Chapter1/Exercise/BC6-Smallplane.c.obj: C_COMPILER__BC6-Smallplane_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Exercise/BC6-Smallplane.c || cmake_object_order_depends_target_BC6-Smallplane
+  DEP_FILE = CMakeFiles\BC6-Smallplane.dir\Classes\Chapter1\Exercise\BC6-Smallplane.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC6-Smallplane.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC6-Smallplane.dir\Classes\Chapter1\Exercise
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC6-Smallplane
+
+
+#############################################
+# Link the executable BC6-Smallplane.exe
+
+build BC6-Smallplane.exe: C_EXECUTABLE_LINKER__BC6-Smallplane_Debug CMakeFiles/BC6-Smallplane.dir/Classes/Chapter1/Exercise/BC6-Smallplane.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC6-Smallplane.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC6-Smallplane.exe
+  TARGET_IMPLIB = libBC6-Smallplane.dll.a
+  TARGET_PDB = BC6-Smallplane.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func
+
+
+#############################################
+# Order-only phony target for func
+
+build cmake_object_order_depends_target_func: phony || .
+
+build CMakeFiles/func.dir/Classes/Chapter1/Func/func.c.obj: C_COMPILER__func_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Func/func.c || cmake_object_order_depends_target_func
+  DEP_FILE = CMakeFiles\func.dir\Classes\Chapter1\Func\func.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\func.dir
+  OBJECT_FILE_DIR = CMakeFiles\func.dir\Classes\Chapter1\Func
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func
+
+
+#############################################
+# Link the executable func.exe
+
+build func.exe: C_EXECUTABLE_LINKER__func_Debug CMakeFiles/func.dir/Classes/Chapter1/Func/func.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func.exe
+  TARGET_IMPLIB = libfunc.dll.a
+  TARGET_PDB = func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target operators
+
+
+#############################################
+# Order-only phony target for operators
+
+build cmake_object_order_depends_target_operators: phony || .
+
+build CMakeFiles/operators.dir/Classes/Chapter1/Operators/operators.c.obj: C_COMPILER__operators_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Operators/operators.c || cmake_object_order_depends_target_operators
+  DEP_FILE = CMakeFiles\operators.dir\Classes\Chapter1\Operators\operators.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\operators.dir
+  OBJECT_FILE_DIR = CMakeFiles\operators.dir\Classes\Chapter1\Operators
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target operators
+
+
+#############################################
+# Link the executable operators.exe
+
+build operators.exe: C_EXECUTABLE_LINKER__operators_Debug CMakeFiles/operators.dir/Classes/Chapter1/Operators/operators.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\operators.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = operators.exe
+  TARGET_IMPLIB = liboperators.dll.a
+  TARGET_PDB = operators.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Order-only phony target for pointer
+
+build cmake_object_order_depends_target_pointer: phony || .
+
+build CMakeFiles/pointer.dir/Classes/Chapter1/Pointer/pointer.c.obj: C_COMPILER__pointer_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Pointer/pointer.c || cmake_object_order_depends_target_pointer
+  DEP_FILE = CMakeFiles\pointer.dir\Classes\Chapter1\Pointer\pointer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer.dir\Classes\Chapter1\Pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Link the executable pointer.exe
+
+build pointer.exe: C_EXECUTABLE_LINKER__pointer_Debug CMakeFiles/pointer.dir/Classes/Chapter1/Pointer/pointer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer.exe
+  TARGET_IMPLIB = libpointer.dll.a
+  TARGET_PDB = pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string01
+
+
+#############################################
+# Order-only phony target for string01
+
+build cmake_object_order_depends_target_string01: phony || .
+
+build CMakeFiles/string01.dir/Classes/Chapter1/String/string01.c.obj: C_COMPILER__string01_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/String/string01.c || cmake_object_order_depends_target_string01
+  DEP_FILE = CMakeFiles\string01.dir\Classes\Chapter1\String\string01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\string01.dir
+  OBJECT_FILE_DIR = CMakeFiles\string01.dir\Classes\Chapter1\String
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string01
+
+
+#############################################
+# Link the executable string01.exe
+
+build string01.exe: C_EXECUTABLE_LINKER__string01_Debug CMakeFiles/string01.dir/Classes/Chapter1/String/string01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\string01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = string01.exe
+  TARGET_IMPLIB = libstring01.dll.a
+  TARGET_PDB = string01.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target variable1
 
 
@@ -148,11 +379,11 @@ build quadratic_eq.exe: C_EXECUTABLE_LINKER__quadratic_eq_Debug CMakeFiles/quadr
 
 build cmake_object_order_depends_target_variable1: phony || .
 
-build CMakeFiles/variable1.dir/Chapter1/Variable/variable1.c.obj: C_COMPILER__variable1_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable1.c || cmake_object_order_depends_target_variable1
-  DEP_FILE = CMakeFiles\variable1.dir\Chapter1\Variable\variable1.c.obj.d
+build CMakeFiles/variable1.dir/Classes/Chapter1/Variable/variable1.c.obj: C_COMPILER__variable1_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Variable/variable1.c || cmake_object_order_depends_target_variable1
+  DEP_FILE = CMakeFiles\variable1.dir\Classes\Chapter1\Variable\variable1.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\variable1.dir
-  OBJECT_FILE_DIR = CMakeFiles\variable1.dir\Chapter1\Variable
+  OBJECT_FILE_DIR = CMakeFiles\variable1.dir\Classes\Chapter1\Variable
 
 
 # =============================================================================
@@ -162,7 +393,7 @@ build CMakeFiles/variable1.dir/Chapter1/Variable/variable1.c.obj: C_COMPILER__va
 #############################################
 # Link the executable variable1.exe
 
-build variable1.exe: C_EXECUTABLE_LINKER__variable1_Debug CMakeFiles/variable1.dir/Chapter1/Variable/variable1.c.obj
+build variable1.exe: C_EXECUTABLE_LINKER__variable1_Debug CMakeFiles/variable1.dir/Classes/Chapter1/Variable/variable1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\variable1.dir
@@ -181,11 +412,11 @@ build variable1.exe: C_EXECUTABLE_LINKER__variable1_Debug CMakeFiles/variable1.d
 
 build cmake_object_order_depends_target_variable2: phony || .
 
-build CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj: C_COMPILER__variable2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable2.c || cmake_object_order_depends_target_variable2
-  DEP_FILE = CMakeFiles\variable2.dir\Chapter1\Variable\variable2.c.obj.d
+build CMakeFiles/variable2.dir/Classes/Chapter1/Variable/variable2.c.obj: C_COMPILER__variable2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Variable/variable2.c || cmake_object_order_depends_target_variable2
+  DEP_FILE = CMakeFiles\variable2.dir\Classes\Chapter1\Variable\variable2.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\variable2.dir
-  OBJECT_FILE_DIR = CMakeFiles\variable2.dir\Chapter1\Variable
+  OBJECT_FILE_DIR = CMakeFiles\variable2.dir\Classes\Chapter1\Variable
 
 
 # =============================================================================
@@ -195,7 +426,7 @@ build CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj: C_COMPILER__va
 #############################################
 # Link the executable variable2.exe
 
-build variable2.exe: C_EXECUTABLE_LINKER__variable2_Debug CMakeFiles/variable2.dir/Chapter1/Variable/variable2.c.obj
+build variable2.exe: C_EXECUTABLE_LINKER__variable2_Debug CMakeFiles/variable2.dir/Classes/Chapter1/Variable/variable2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\variable2.dir
@@ -214,11 +445,11 @@ build variable2.exe: C_EXECUTABLE_LINKER__variable2_Debug CMakeFiles/variable2.d
 
 build cmake_object_order_depends_target_variable3: phony || .
 
-build CMakeFiles/variable3.dir/Chapter1/Variable/variable3.c.obj: C_COMPILER__variable3_unscanned_Debug D$:/C$ Programming/Code/HelloC/Chapter1/Variable/variable3.c || cmake_object_order_depends_target_variable3
-  DEP_FILE = CMakeFiles\variable3.dir\Chapter1\Variable\variable3.c.obj.d
+build CMakeFiles/variable3.dir/Classes/Chapter1/Variable/variable3.c.obj: C_COMPILER__variable3_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Variable/variable3.c || cmake_object_order_depends_target_variable3
+  DEP_FILE = CMakeFiles\variable3.dir\Classes\Chapter1\Variable\variable3.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\variable3.dir
-  OBJECT_FILE_DIR = CMakeFiles\variable3.dir\Chapter1\Variable
+  OBJECT_FILE_DIR = CMakeFiles\variable3.dir\Classes\Chapter1\Variable
 
 
 # =============================================================================
@@ -228,7 +459,7 @@ build CMakeFiles/variable3.dir/Chapter1/Variable/variable3.c.obj: C_COMPILER__va
 #############################################
 # Link the executable variable3.exe
 
-build variable3.exe: C_EXECUTABLE_LINKER__variable3_Debug CMakeFiles/variable3.dir/Chapter1/Variable/variable3.c.obj
+build variable3.exe: C_EXECUTABLE_LINKER__variable3_Debug CMakeFiles/variable3.dir/Classes/Chapter1/Variable/variable3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\variable3.dir
@@ -237,6 +468,996 @@ build variable3.exe: C_EXECUTABLE_LINKER__variable3_Debug CMakeFiles/variable3.d
   TARGET_FILE = variable3.exe
   TARGET_IMPLIB = libvariable3.dll.a
   TARGET_PDB = variable3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable4
+
+
+#############################################
+# Order-only phony target for variable4
+
+build cmake_object_order_depends_target_variable4: phony || .
+
+build CMakeFiles/variable4.dir/Classes/Chapter1/Variable/variable4.c.obj: C_COMPILER__variable4_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/Variable/variable4.c || cmake_object_order_depends_target_variable4
+  DEP_FILE = CMakeFiles\variable4.dir\Classes\Chapter1\Variable\variable4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\variable4.dir
+  OBJECT_FILE_DIR = CMakeFiles\variable4.dir\Classes\Chapter1\Variable
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable4
+
+
+#############################################
+# Link the executable variable4.exe
+
+build variable4.exe: C_EXECUTABLE_LINKER__variable4_Debug CMakeFiles/variable4.dir/Classes/Chapter1/Variable/variable4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\variable4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = variable4.exe
+  TARGET_IMPLIB = libvariable4.dll.a
+  TARGET_PDB = variable4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target static
+
+
+#############################################
+# Order-only phony target for static
+
+build cmake_object_order_depends_target_static: phony || .
+
+build CMakeFiles/static.dir/Classes/Chapter1/static.c.obj: C_COMPILER__static_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter1/static.c || cmake_object_order_depends_target_static
+  DEP_FILE = CMakeFiles\static.dir\Classes\Chapter1\static.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\static.dir
+  OBJECT_FILE_DIR = CMakeFiles\static.dir\Classes\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target static
+
+
+#############################################
+# Link the executable static.exe
+
+build static.exe: C_EXECUTABLE_LINKER__static_Debug CMakeFiles/static.dir/Classes/Chapter1/static.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\static.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = static.exe
+  TARGET_IMPLIB = libstatic.dll.a
+  TARGET_PDB = static.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ForDemo
+
+
+#############################################
+# Order-only phony target for ForDemo
+
+build cmake_object_order_depends_target_ForDemo: phony || .
+
+build CMakeFiles/ForDemo.dir/Classes/Chapter2/ForDemo.c.obj: C_COMPILER__ForDemo_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter2/ForDemo.c || cmake_object_order_depends_target_ForDemo
+  DEP_FILE = CMakeFiles\ForDemo.dir\Classes\Chapter2\ForDemo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ForDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\ForDemo.dir\Classes\Chapter2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ForDemo
+
+
+#############################################
+# Link the executable ForDemo.exe
+
+build ForDemo.exe: C_EXECUTABLE_LINKER__ForDemo_Debug CMakeFiles/ForDemo.dir/Classes/Chapter2/ForDemo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ForDemo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ForDemo.exe
+  TARGET_IMPLIB = libForDemo.dll.a
+  TARGET_PDB = ForDemo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IfDemo
+
+
+#############################################
+# Order-only phony target for IfDemo
+
+build cmake_object_order_depends_target_IfDemo: phony || .
+
+build CMakeFiles/IfDemo.dir/Classes/Chapter2/IfDemo.c.obj: C_COMPILER__IfDemo_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter2/IfDemo.c || cmake_object_order_depends_target_IfDemo
+  DEP_FILE = CMakeFiles\IfDemo.dir\Classes\Chapter2\IfDemo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IfDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\IfDemo.dir\Classes\Chapter2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IfDemo
+
+
+#############################################
+# Link the executable IfDemo.exe
+
+build IfDemo.exe: C_EXECUTABLE_LINKER__IfDemo_Debug CMakeFiles/IfDemo.dir/Classes/Chapter2/IfDemo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IfDemo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IfDemo.exe
+  TARGET_IMPLIB = libIfDemo.dll.a
+  TARGET_PDB = IfDemo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SwitchDemo
+
+
+#############################################
+# Order-only phony target for SwitchDemo
+
+build cmake_object_order_depends_target_SwitchDemo: phony || .
+
+build CMakeFiles/SwitchDemo.dir/Classes/Chapter2/SwitchDemo.c.obj: C_COMPILER__SwitchDemo_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter2/SwitchDemo.c || cmake_object_order_depends_target_SwitchDemo
+  DEP_FILE = CMakeFiles\SwitchDemo.dir\Classes\Chapter2\SwitchDemo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SwitchDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\SwitchDemo.dir\Classes\Chapter2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SwitchDemo
+
+
+#############################################
+# Link the executable SwitchDemo.exe
+
+build SwitchDemo.exe: C_EXECUTABLE_LINKER__SwitchDemo_Debug CMakeFiles/SwitchDemo.dir/Classes/Chapter2/SwitchDemo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SwitchDemo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SwitchDemo.exe
+  TARGET_IMPLIB = libSwitchDemo.dll.a
+  TARGET_PDB = SwitchDemo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target WhileDemo
+
+
+#############################################
+# Order-only phony target for WhileDemo
+
+build cmake_object_order_depends_target_WhileDemo: phony || .
+
+build CMakeFiles/WhileDemo.dir/Classes/Chapter2/WhileDemo.c.obj: C_COMPILER__WhileDemo_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter2/WhileDemo.c || cmake_object_order_depends_target_WhileDemo
+  DEP_FILE = CMakeFiles\WhileDemo.dir\Classes\Chapter2\WhileDemo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WhileDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\WhileDemo.dir\Classes\Chapter2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target WhileDemo
+
+
+#############################################
+# Link the executable WhileDemo.exe
+
+build WhileDemo.exe: C_EXECUTABLE_LINKER__WhileDemo_Debug CMakeFiles/WhileDemo.dir/Classes/Chapter2/WhileDemo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\WhileDemo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = WhileDemo.exe
+  TARGET_IMPLIB = libWhileDemo.dll.a
+  TARGET_PDB = WhileDemo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Func
+
+
+#############################################
+# Order-only phony target for Func
+
+build cmake_object_order_depends_target_Func: phony || .
+
+build CMakeFiles/Func.dir/Classes/Chapter3/Func.c.obj: C_COMPILER__Func_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter3/Func.c || cmake_object_order_depends_target_Func
+  DEP_FILE = CMakeFiles\Func.dir\Classes\Chapter3\Func.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Func.dir
+  OBJECT_FILE_DIR = CMakeFiles\Func.dir\Classes\Chapter3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Func
+
+
+#############################################
+# Link the executable Func.exe
+
+build Func.exe: C_EXECUTABLE_LINKER__Func_Debug CMakeFiles/Func.dir/Classes/Chapter3/Func.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Func.exe
+  TARGET_IMPLIB = libFunc.dll.a
+  TARGET_PDB = Func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Func2
+
+
+#############################################
+# Order-only phony target for Func2
+
+build cmake_object_order_depends_target_Func2: phony || .
+
+build CMakeFiles/Func2.dir/Classes/Chapter3/Func2.c.obj: C_COMPILER__Func2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter3/Func2.c || cmake_object_order_depends_target_Func2
+  DEP_FILE = CMakeFiles\Func2.dir\Classes\Chapter3\Func2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Func2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Func2.dir\Classes\Chapter3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Func2
+
+
+#############################################
+# Link the executable Func2.exe
+
+build Func2.exe: C_EXECUTABLE_LINKER__Func2_Debug CMakeFiles/Func2.dir/Classes/Chapter3/Func2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Func2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Func2.exe
+  TARGET_IMPLIB = libFunc2.dll.a
+  TARGET_PDB = Func2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Arr
+
+
+#############################################
+# Order-only phony target for Arr
+
+build cmake_object_order_depends_target_Arr: phony || .
+
+build CMakeFiles/Arr.dir/Classes/Chapter4/Arr.c.obj: C_COMPILER__Arr_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter4/Arr.c || cmake_object_order_depends_target_Arr
+  DEP_FILE = CMakeFiles\Arr.dir\Classes\Chapter4\Arr.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Arr.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arr.dir\Classes\Chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Arr
+
+
+#############################################
+# Link the executable Arr.exe
+
+build Arr.exe: C_EXECUTABLE_LINKER__Arr_Debug CMakeFiles/Arr.dir/Classes/Chapter4/Arr.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Arr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Arr.exe
+  TARGET_IMPLIB = libArr.dll.a
+  TARGET_PDB = Arr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Array1
+
+
+#############################################
+# Order-only phony target for Array1
+
+build cmake_object_order_depends_target_Array1: phony || .
+
+build CMakeFiles/Array1.dir/Classes/Chapter4/Array1.c.obj: C_COMPILER__Array1_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter4/Array1.c || cmake_object_order_depends_target_Array1
+  DEP_FILE = CMakeFiles\Array1.dir\Classes\Chapter4\Array1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Array1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Array1.dir\Classes\Chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Array1
+
+
+#############################################
+# Link the executable Array1.exe
+
+build Array1.exe: C_EXECUTABLE_LINKER__Array1_Debug CMakeFiles/Array1.dir/Classes/Chapter4/Array1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Array1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Array1.exe
+  TARGET_IMPLIB = libArray1.dll.a
+  TARGET_PDB = Array1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Array2
+
+
+#############################################
+# Order-only phony target for Array2
+
+build cmake_object_order_depends_target_Array2: phony || .
+
+build CMakeFiles/Array2.dir/Classes/Chapter4/Array2.c.obj: C_COMPILER__Array2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter4/Array2.c || cmake_object_order_depends_target_Array2
+  DEP_FILE = CMakeFiles\Array2.dir\Classes\Chapter4\Array2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Array2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Array2.dir\Classes\Chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Array2
+
+
+#############################################
+# Link the executable Array2.exe
+
+build Array2.exe: C_EXECUTABLE_LINKER__Array2_Debug CMakeFiles/Array2.dir/Classes/Chapter4/Array2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Array2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Array2.exe
+  TARGET_IMPLIB = libArray2.dll.a
+  TARGET_PDB = Array2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayExer
+
+
+#############################################
+# Order-only phony target for ArrayExer
+
+build cmake_object_order_depends_target_ArrayExer: phony || .
+
+build CMakeFiles/ArrayExer.dir/Classes/Chapter4/ArrayExer.c.obj: C_COMPILER__ArrayExer_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter4/ArrayExer.c || cmake_object_order_depends_target_ArrayExer
+  DEP_FILE = CMakeFiles\ArrayExer.dir\Classes\Chapter4\ArrayExer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ArrayExer.dir
+  OBJECT_FILE_DIR = CMakeFiles\ArrayExer.dir\Classes\Chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayExer
+
+
+#############################################
+# Link the executable ArrayExer.exe
+
+build ArrayExer.exe: C_EXECUTABLE_LINKER__ArrayExer_Debug CMakeFiles/ArrayExer.dir/Classes/Chapter4/ArrayExer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ArrayExer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ArrayExer.exe
+  TARGET_IMPLIB = libArrayExer.dll.a
+  TARGET_PDB = ArrayExer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_Pointer
+
+
+#############################################
+# Order-only phony target for 01_Pointer
+
+build cmake_object_order_depends_target_01_Pointer: phony || .
+
+build CMakeFiles/01_Pointer.dir/Classes/Chapter5/01_Pointer.c.obj: C_COMPILER__01_Pointer_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter5/01_Pointer.c || cmake_object_order_depends_target_01_Pointer
+  DEP_FILE = CMakeFiles\01_Pointer.dir\Classes\Chapter5\01_Pointer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Pointer.dir\Classes\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_Pointer
+
+
+#############################################
+# Link the executable 01_Pointer.exe
+
+build 01_Pointer.exe: C_EXECUTABLE_LINKER__01_Pointer_Debug CMakeFiles/01_Pointer.dir/Classes/Chapter5/01_Pointer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_Pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_Pointer.exe
+  TARGET_IMPLIB = lib01_Pointer.dll.a
+  TARGET_PDB = 01_Pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_PointerTest
+
+
+#############################################
+# Order-only phony target for 01_PointerTest
+
+build cmake_object_order_depends_target_01_PointerTest: phony || .
+
+build CMakeFiles/01_PointerTest.dir/Classes/Chapter5/01_PointerTest.c.obj: C_COMPILER__01_PointerTest_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter5/01_PointerTest.c || cmake_object_order_depends_target_01_PointerTest
+  DEP_FILE = CMakeFiles\01_PointerTest.dir\Classes\Chapter5\01_PointerTest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_PointerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_PointerTest.dir\Classes\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_PointerTest
+
+
+#############################################
+# Link the executable 01_PointerTest.exe
+
+build 01_PointerTest.exe: C_EXECUTABLE_LINKER__01_PointerTest_Debug CMakeFiles/01_PointerTest.dir/Classes/Chapter5/01_PointerTest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_PointerTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_PointerTest.exe
+  TARGET_IMPLIB = lib01_PointerTest.dll.a
+  TARGET_PDB = 01_PointerTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_PointerTest
+
+
+#############################################
+# Order-only phony target for 02_PointerTest
+
+build cmake_object_order_depends_target_02_PointerTest: phony || .
+
+build CMakeFiles/02_PointerTest.dir/Classes/Chapter5/02_PointerTest.c.obj: C_COMPILER__02_PointerTest_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter5/02_PointerTest.c || cmake_object_order_depends_target_02_PointerTest
+  DEP_FILE = CMakeFiles\02_PointerTest.dir\Classes\Chapter5\02_PointerTest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_PointerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_PointerTest.dir\Classes\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_PointerTest
+
+
+#############################################
+# Link the executable 02_PointerTest.exe
+
+build 02_PointerTest.exe: C_EXECUTABLE_LINKER__02_PointerTest_Debug CMakeFiles/02_PointerTest.dir/Classes/Chapter5/02_PointerTest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_PointerTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_PointerTest.exe
+  TARGET_IMPLIB = lib02_PointerTest.dll.a
+  TARGET_PDB = 02_PointerTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_PointerTest2
+
+
+#############################################
+# Order-only phony target for 03_PointerTest2
+
+build cmake_object_order_depends_target_03_PointerTest2: phony || .
+
+build CMakeFiles/03_PointerTest2.dir/Classes/Chapter5/03_PointerTest2.c.obj: C_COMPILER__03_PointerTest2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter5/03_PointerTest2.c || cmake_object_order_depends_target_03_PointerTest2
+  DEP_FILE = CMakeFiles\03_PointerTest2.dir\Classes\Chapter5\03_PointerTest2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_PointerTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_PointerTest2.dir\Classes\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_PointerTest2
+
+
+#############################################
+# Link the executable 03_PointerTest2.exe
+
+build 03_PointerTest2.exe: C_EXECUTABLE_LINKER__03_PointerTest2_Debug CMakeFiles/03_PointerTest2.dir/Classes/Chapter5/03_PointerTest2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_PointerTest2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_PointerTest2.exe
+  TARGET_IMPLIB = lib03_PointerTest2.dll.a
+  TARGET_PDB = 03_PointerTest2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_PointerTest3
+
+
+#############################################
+# Order-only phony target for 04_PointerTest3
+
+build cmake_object_order_depends_target_04_PointerTest3: phony || .
+
+build CMakeFiles/04_PointerTest3.dir/Classes/Chapter5/04_PointerTest3.c.obj: C_COMPILER__04_PointerTest3_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter5/04_PointerTest3.c || cmake_object_order_depends_target_04_PointerTest3
+  DEP_FILE = CMakeFiles\04_PointerTest3.dir\Classes\Chapter5\04_PointerTest3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_PointerTest3.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_PointerTest3.dir\Classes\Chapter5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_PointerTest3
+
+
+#############################################
+# Link the executable 04_PointerTest3.exe
+
+build 04_PointerTest3.exe: C_EXECUTABLE_LINKER__04_PointerTest3_Debug CMakeFiles/04_PointerTest3.dir/Classes/Chapter5/04_PointerTest3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_PointerTest3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_PointerTest3.exe
+  TARGET_IMPLIB = lib04_PointerTest3.dll.a
+  TARGET_PDB = 04_PointerTest3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_Structure
+
+
+#############################################
+# Order-only phony target for 01_Structure
+
+build cmake_object_order_depends_target_01_Structure: phony || .
+
+build CMakeFiles/01_Structure.dir/Classes/Chapter7/01_Structure.c.obj: C_COMPILER__01_Structure_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/01_Structure.c || cmake_object_order_depends_target_01_Structure
+  DEP_FILE = CMakeFiles\01_Structure.dir\Classes\Chapter7\01_Structure.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Structure.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Structure.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_Structure
+
+
+#############################################
+# Link the executable 01_Structure.exe
+
+build 01_Structure.exe: C_EXECUTABLE_LINKER__01_Structure_Debug CMakeFiles/01_Structure.dir/Classes/Chapter7/01_Structure.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_Structure.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_Structure.exe
+  TARGET_IMPLIB = lib01_Structure.dll.a
+  TARGET_PDB = 01_Structure.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_Struct
+
+
+#############################################
+# Order-only phony target for 02_Struct
+
+build cmake_object_order_depends_target_02_Struct: phony || .
+
+build CMakeFiles/02_Struct.dir/Classes/Chapter7/02_Struct.c.obj: C_COMPILER__02_Struct_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/02_Struct.c || cmake_object_order_depends_target_02_Struct
+  DEP_FILE = CMakeFiles\02_Struct.dir\Classes\Chapter7\02_Struct.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_Struct.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_Struct.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_Struct
+
+
+#############################################
+# Link the executable 02_Struct.exe
+
+build 02_Struct.exe: C_EXECUTABLE_LINKER__02_Struct_Debug CMakeFiles/02_Struct.dir/Classes/Chapter7/02_Struct.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_Struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_Struct.exe
+  TARGET_IMPLIB = lib02_Struct.dll.a
+  TARGET_PDB = 02_Struct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_StructTest
+
+
+#############################################
+# Order-only phony target for 03_StructTest
+
+build cmake_object_order_depends_target_03_StructTest: phony || .
+
+build CMakeFiles/03_StructTest.dir/Classes/Chapter7/03_StructTest.c.obj: C_COMPILER__03_StructTest_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/03_StructTest.c || cmake_object_order_depends_target_03_StructTest
+  DEP_FILE = CMakeFiles\03_StructTest.dir\Classes\Chapter7\03_StructTest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_StructTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_StructTest.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_StructTest
+
+
+#############################################
+# Link the executable 03_StructTest.exe
+
+build 03_StructTest.exe: C_EXECUTABLE_LINKER__03_StructTest_Debug CMakeFiles/03_StructTest.dir/Classes/Chapter7/03_StructTest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_StructTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_StructTest.exe
+  TARGET_IMPLIB = lib03_StructTest.dll.a
+  TARGET_PDB = 03_StructTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_StructTest
+
+
+#############################################
+# Order-only phony target for 04_StructTest
+
+build cmake_object_order_depends_target_04_StructTest: phony || .
+
+build CMakeFiles/04_StructTest.dir/Classes/Chapter7/04_StructTest.c.obj: C_COMPILER__04_StructTest_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/04_StructTest.c || cmake_object_order_depends_target_04_StructTest
+  DEP_FILE = CMakeFiles\04_StructTest.dir\Classes\Chapter7\04_StructTest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_StructTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_StructTest.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_StructTest
+
+
+#############################################
+# Link the executable 04_StructTest.exe
+
+build 04_StructTest.exe: C_EXECUTABLE_LINKER__04_StructTest_Debug CMakeFiles/04_StructTest.dir/Classes/Chapter7/04_StructTest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_StructTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_StructTest.exe
+  TARGET_IMPLIB = lib04_StructTest.dll.a
+  TARGET_PDB = 04_StructTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_StructTest
+
+
+#############################################
+# Order-only phony target for 05_StructTest
+
+build cmake_object_order_depends_target_05_StructTest: phony || .
+
+build CMakeFiles/05_StructTest.dir/Classes/Chapter7/05_StructTest.c.obj: C_COMPILER__05_StructTest_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/05_StructTest.c || cmake_object_order_depends_target_05_StructTest
+  DEP_FILE = CMakeFiles\05_StructTest.dir\Classes\Chapter7\05_StructTest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_StructTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_StructTest.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_StructTest
+
+
+#############################################
+# Link the executable 05_StructTest.exe
+
+build 05_StructTest.exe: C_EXECUTABLE_LINKER__05_StructTest_Debug CMakeFiles/05_StructTest.dir/Classes/Chapter7/05_StructTest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_StructTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_StructTest.exe
+  TARGET_IMPLIB = lib05_StructTest.dll.a
+  TARGET_PDB = 05_StructTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_StructArray
+
+
+#############################################
+# Order-only phony target for 06_StructArray
+
+build cmake_object_order_depends_target_06_StructArray: phony || .
+
+build CMakeFiles/06_StructArray.dir/Classes/Chapter7/06_StructArray.c.obj: C_COMPILER__06_StructArray_unscanned_Debug D$:/C$ Programming/Code/HelloC/Classes/Chapter7/06_StructArray.c || cmake_object_order_depends_target_06_StructArray
+  DEP_FILE = CMakeFiles\06_StructArray.dir\Classes\Chapter7\06_StructArray.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_StructArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_StructArray.dir\Classes\Chapter7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_StructArray
+
+
+#############################################
+# Link the executable 06_StructArray.exe
+
+build 06_StructArray.exe: C_EXECUTABLE_LINKER__06_StructArray_Debug CMakeFiles/06_StructArray.dir/Classes/Chapter7/06_StructArray.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_StructArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_StructArray.exe
+  TARGET_IMPLIB = lib06_StructArray.dll.a
+  TARGET_PDB = 06_StructArray.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC1-HelloNowcoder
+
+
+#############################################
+# Order-only phony target for BC1-HelloNowcoder
+
+build cmake_object_order_depends_target_BC1-HelloNowcoder: phony || .
+
+build CMakeFiles/BC1-HelloNowcoder.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC1-HelloNowcoder.c.obj: C_COMPILER__BC1-HelloNowcoder_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC1-HelloNowcoder.c || cmake_object_order_depends_target_BC1-HelloNowcoder
+  DEP_FILE = CMakeFiles\BC1-HelloNowcoder.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC1-HelloNowcoder.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC1-HelloNowcoder.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC1-HelloNowcoder.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC1-HelloNowcoder
+
+
+#############################################
+# Link the executable BC1-HelloNowcoder.exe
+
+build BC1-HelloNowcoder.exe: C_EXECUTABLE_LINKER__BC1-HelloNowcoder_Debug CMakeFiles/BC1-HelloNowcoder.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC1-HelloNowcoder.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC1-HelloNowcoder.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC1-HelloNowcoder.exe
+  TARGET_IMPLIB = libBC1-HelloNowcoder.dll.a
+  TARGET_PDB = BC1-HelloNowcoder.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC2
+
+
+#############################################
+# Order-only phony target for BC2
+
+build cmake_object_order_depends_target_BC2: phony || .
+
+build CMakeFiles/BC2.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC2.c.obj: C_COMPILER__BC2_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC2.c || cmake_object_order_depends_target_BC2
+  DEP_FILE = CMakeFiles\BC2.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC2.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC2.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC2
+
+
+#############################################
+# Link the executable BC2.exe
+
+build BC2.exe: C_EXECUTABLE_LINKER__BC2_Debug CMakeFiles/BC2.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC2.exe
+  TARGET_IMPLIB = libBC2.dll.a
+  TARGET_PDB = BC2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC3
+
+
+#############################################
+# Order-only phony target for BC3
+
+build cmake_object_order_depends_target_BC3: phony || .
+
+build CMakeFiles/BC3.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC3.c.obj: C_COMPILER__BC3_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC3.c || cmake_object_order_depends_target_BC3
+  DEP_FILE = CMakeFiles\BC3.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC3.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC3.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC3
+
+
+#############################################
+# Link the executable BC3.exe
+
+build BC3.exe: C_EXECUTABLE_LINKER__BC3_Debug CMakeFiles/BC3.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC3.exe
+  TARGET_IMPLIB = libBC3.dll.a
+  TARGET_PDB = BC3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC4
+
+
+#############################################
+# Order-only phony target for BC4
+
+build cmake_object_order_depends_target_BC4: phony || .
+
+build CMakeFiles/BC4.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC4.c.obj: C_COMPILER__BC4_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC4.c || cmake_object_order_depends_target_BC4
+  DEP_FILE = CMakeFiles\BC4.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC4.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC4.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC4
+
+
+#############################################
+# Link the executable BC4.exe
+
+build BC4.exe: C_EXECUTABLE_LINKER__BC4_Debug CMakeFiles/BC4.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC4.exe
+  TARGET_IMPLIB = libBC4.dll.a
+  TARGET_PDB = BC4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC5
+
+
+#############################################
+# Order-only phony target for BC5
+
+build cmake_object_order_depends_target_BC5: phony || .
+
+build CMakeFiles/BC5.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC5.c.obj: C_COMPILER__BC5_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC5.c || cmake_object_order_depends_target_BC5
+  DEP_FILE = CMakeFiles\BC5.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC5.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC5.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC5.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC5
+
+
+#############################################
+# Link the executable BC5.exe
+
+build BC5.exe: C_EXECUTABLE_LINKER__BC5_Debug CMakeFiles/BC5.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC5.exe
+  TARGET_IMPLIB = libBC5.dll.a
+  TARGET_PDB = BC5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC6
+
+
+#############################################
+# Order-only phony target for BC6
+
+build cmake_object_order_depends_target_BC6: phony || .
+
+build CMakeFiles/BC6.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC6.c.obj: C_COMPILER__BC6_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC6.c || cmake_object_order_depends_target_BC6
+  DEP_FILE = CMakeFiles\BC6.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC6.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC6.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC6.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC6
+
+
+#############################################
+# Link the executable BC6.exe
+
+build BC6.exe: C_EXECUTABLE_LINKER__BC6_Debug CMakeFiles/BC6.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC6.exe
+  TARGET_IMPLIB = libBC6.dll.a
+  TARGET_PDB = BC6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BC7
+
+
+#############################################
+# Order-only phony target for BC7
+
+build cmake_object_order_depends_target_BC7: phony || .
+
+build CMakeFiles/BC7.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC7.c.obj: C_COMPILER__BC7_unscanned_Debug D$:/C$ Programming/Code/HelloC/Nowcoder/Vocabulary/01-SimpleOutput/BC7.c || cmake_object_order_depends_target_BC7
+  DEP_FILE = CMakeFiles\BC7.dir\Nowcoder\Vocabulary\01-SimpleOutput\BC7.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BC7.dir
+  OBJECT_FILE_DIR = CMakeFiles\BC7.dir\Nowcoder\Vocabulary\01-SimpleOutput
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BC7
+
+
+#############################################
+# Link the executable BC7.exe
+
+build BC7.exe: C_EXECUTABLE_LINKER__BC7_Debug CMakeFiles/BC7.dir/Nowcoder/Vocabulary/01-SimpleOutput/BC7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BC7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BC7.exe
+  TARGET_IMPLIB = libBC7.dll.a
+  TARGET_PDB = BC7.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCCompilerId
@@ -330,21 +1551,95 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01_Pointer: phony 01_Pointer.exe
+
+build 01_PointerTest: phony 01_PointerTest.exe
+
+build 01_Structure: phony 01_Structure.exe
+
+build 02_PointerTest: phony 02_PointerTest.exe
+
+build 02_Struct: phony 02_Struct.exe
+
+build 03_PointerTest2: phony 03_PointerTest2.exe
+
+build 03_StructTest: phony 03_StructTest.exe
+
+build 04_PointerTest3: phony 04_PointerTest3.exe
+
+build 04_StructTest: phony 04_StructTest.exe
+
+build 05_StructTest: phony 05_StructTest.exe
+
+build 06_StructArray: phony 06_StructArray.exe
+
+build Arr: phony Arr.exe
+
+build Array1: phony Array1.exe
+
+build Array2: phony Array2.exe
+
+build ArrayExer: phony ArrayExer.exe
+
+build BC1-HelloNowcoder: phony BC1-HelloNowcoder.exe
+
+build BC2: phony BC2.exe
+
+build BC3: phony BC3.exe
+
+build BC4: phony BC4.exe
+
+build BC5: phony BC5.exe
+
+build BC6: phony BC6.exe
+
+build BC6-Smallplane: phony BC6-Smallplane.exe
+
+build BC7: phony BC7.exe
+
 build CMakeCCompilerId: phony CMakeCCompilerId.exe
+
+build ForDemo: phony ForDemo.exe
+
+build Func: phony Func.exe
+
+build Func2: phony Func2.exe
 
 build HelloWord: phony HelloWord.exe
 
+build IfDemo: phony IfDemo.exe
+
+build String1: phony String1.exe
+
+build SwitchDemo: phony SwitchDemo.exe
+
+build WhileDemo: phony WhileDemo.exe
+
 build dataTypes: phony dataTypes.exe
+
+build func: phony func.exe
+
+build ifDemo: phony ifDemo.exe
 
 build main: phony main.exe
 
+build operators: phony operators.exe
+
+build pointer: phony pointer.exe
+
 build quadratic_eq: phony quadratic_eq.exe
+
+build static: phony static.exe
+
+build string01: phony string01.exe
 
 build variable1: phony variable1.exe
 
 build variable2: phony variable2.exe
 
 build variable3: phony variable3.exe
+
+build variable4: phony variable4.exe
 
 # =============================================================================
 # Folder targets.
@@ -354,7 +1649,7 @@ build variable3: phony variable3.exe
 #############################################
 # Folder: D:/C Programming/Code/HelloC/cmake-build-debug
 
-build all: phony dataTypes.exe HelloWord.exe quadratic_eq.exe variable1.exe variable2.exe variable3.exe CMakeCCompilerId.exe main.exe
+build all: phony String1.exe ifDemo.exe dataTypes.exe HelloWord.exe quadratic_eq.exe BC6-Smallplane.exe func.exe operators.exe pointer.exe string01.exe variable1.exe variable2.exe variable3.exe variable4.exe static.exe ForDemo.exe IfDemo.exe SwitchDemo.exe WhileDemo.exe Func.exe Func2.exe Arr.exe Array1.exe Array2.exe ArrayExer.exe 01_Pointer.exe 01_PointerTest.exe 02_PointerTest.exe 03_PointerTest2.exe 04_PointerTest3.exe 01_Structure.exe 02_Struct.exe 03_StructTest.exe 04_StructTest.exe 05_StructTest.exe 06_StructArray.exe BC1-HelloNowcoder.exe BC2.exe BC3.exe BC4.exe BC5.exe BC6.exe BC7.exe CMakeCCompilerId.exe main.exe
 
 # =============================================================================
 # Built-in targets

@@ -75,6 +75,14 @@ void WhileExercise02() {
     printf("Sum: %d", sum);
 }
 
+// 二分查找
+void Exercise03() {
+    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    printf("%llu \n", sizeof(arr)/sizeof(arr[0]));
+    printf("%llu", sizeof(arr[0]));
+}
+
+
 int main() {
     // WhileDemo1();
     // WhileDemo2();
@@ -82,6 +90,7 @@ int main() {
     // WhileDemo4();
     // GetChar();
     // WhileExercise01(5);
-    WhileExercise02();
+    // WhileExercise02();
+    Exercise03();
     return 0;
 }
