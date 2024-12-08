@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void butler(void);
+void butler(void);  // C函数原型
 
 int main() {
     printf("I will summon the butler function.\n");
