@@ -1,4 +1,17 @@
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/concrete.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/String1.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/exercise01.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/exercise02.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/fathm_ft.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/first.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/nogoog.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/stillbad.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/two_func.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/3-2_Print1.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/3-3_Bases.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/3-4_Print2.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/3-4_Toobig.dir
+D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/platinum.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/ifDemo.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/dataTypes.dir
 D:/C Programming/Code/HelloC/cmake-build-debug/CMakeFiles/HelloWord.dir
